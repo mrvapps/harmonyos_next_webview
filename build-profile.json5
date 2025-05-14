@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\matheus.rodrigues\\.ohos\\config\\default_Webvi_PBdju-j-63-dShzIPCP-0C85ZXcaK1unOtzeBlgV62g=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A857807C8B4501A8A09E55544A3190ED7874B33D922D24454B839EB8E4AD90905CF2AF6C366A0",
+          "profile": "C:\\Users\\matheus.rodrigues\\.ohos\\config\\default_Webvi_PBdju-j-63-dShzIPCP-0C85ZXcaK1unOtzeBlgV62g=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\matheus.rodrigues\\.ohos\\config\\default_Webvi_PBdju-j-63-dShzIPCP-0C85ZXcaK1unOtzeBlgV62g=.p12",
+          "storePassword": "0000001A860C202CC09E79576D64A4505CE38C61C4D263CECC1F6D1C2D35A08AA0377142DE1B55D9B994"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
