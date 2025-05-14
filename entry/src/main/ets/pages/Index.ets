@@ -37,7 +37,7 @@ struct Index {
     } catch (err) {}
   }
 
-  // Full screen mode to fill the top bar
+  // Full screen mode to fill the top bar...
   private async enableFullScreen() {
     try {
       const win = await window.getLastWindow(this.context);
